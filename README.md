@@ -1,4 +1,3 @@
-theme: jekyll-theme-minimal
 # What we will do?
 
 ### We will deploy a static website to aws s3 bucket using terraform in simple 5-STEPS
