@@ -7,6 +7,15 @@
 
 ## For example we will host a simple resume on aws s3 !
 [To see all the source code click!](/)
-### STEP-1  :
+### STEP-1 Provider File:
++ Create a provider.tf file and add your provider i.e AWS
++ Also, add the required access keys so that you can access you aws console
+```
+provider "aws" {
+  region = "ap-south-1"
+  access_key = var.access_key
+  secret_key = var.secret_key
+}
+```
 
 
