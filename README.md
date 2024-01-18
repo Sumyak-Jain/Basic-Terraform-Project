@@ -11,11 +11,24 @@
 + Create a provider.tf file and add your provider i.e AWS
 + Also, add the required access keys so that you can access you aws console
 ```
+> provider.tf
 provider "aws" {
   region = "ap-south-1"
   access_key = var.access_key
   secret_key = var.secret_key
 }
 ```
+### STEP-2 Variable and tfvar file:
++ We are not using the hardcode variables in provider files
++ So, we need to declare variable name and there types in variable file
++ Also, add the required access keys so that you can access you aws console
+```
+provider "aws" {
+  region = "ap-south-1"
+  access_key = var.access_key
+  secret_key = var.secret_key
+}
+```
+
 
 
