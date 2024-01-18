@@ -1,6 +1,6 @@
 # What we will do?
 
-### We will deploy a static website to aws s3 bucket using terraform
+### We will deploy a static website to aws s3 bucket using terraform in simple 5-STEPS
 
 ### All things will be done using TERRAFORM
 ![terraform-s3](https://github.com/Sumyak-Jain/Basic-Terraform-Project/assets/46700921/97330043-95d2-4720-a451-7f5996566e16)
@@ -152,11 +152,14 @@ resource "aws_s3_bucket_website_configuration" "website" {
 
 ![image](https://github.com/Sumyak-Jain/Basic-Terraform-Project/assets/46700921/8adc57e3-9bc9-41a1-b528-07b284a2dc3a)
 
-### STEP-6 OPTIONAL- terraform destroy:
+### STEP-6 terraform destroy (OPTIONAL) :
 + you can use terraform destroy as it is a convenient way to destroy all remote objects managed by a particular Terraform configuration.
 
 ![image](https://github.com/Sumyak-Jain/Basic-Terraform-Project/assets/46700921/6ba253c9-2693-44d2-be9c-1d201b76a9bc)
 ![image](https://github.com/Sumyak-Jain/Basic-Terraform-Project/assets/46700921/3f729d32-3213-469f-964f-945f6ede9521)
+
+#
+### CONGRATULATIONS! :clap: now you know how to host a static website on aws s3 using terraform
 
 
 
